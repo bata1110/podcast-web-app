@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+    <!-- Global stylesheets -->
+    <link
+      href="assets/fonts/inter/inter.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/icons/material/styles.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="assets/css/test.css" rel="stylesheet" type="text/css" />
+    <link
+      href="assets/icons/phosphor/styles.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="assets/css/all.min.css" rel="stylesheet" type="text/css" />
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script src="assets/js/main/bootstrap.bundle.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script src="assets/js/plugins/prism.min.js"></script>
+    <script src="assets/js/main/app.js"></script>
+    <!-- /theme JS files -->
+  </head>
+
+  <body>
+    <div class="page-content">
+      <!-- /main sidebar -->
+
+      <!-- Main content -->
+      <div class="content-wrapper">
+        <!-- Main navbar -->
+        <div class="navbar navbar-expand-lg navbar-static border-bottom">
+          <div class="container-fluid">
+            <div class="d-flex d-lg-none flex-fill me-2">
+              <button
+                type="button"
+                class="navbar-toggler sidebar-mobile-main-toggle rounded-pill"
+              >
+                <i class="ph-list"></i>
+              </button>
+            </div>
+
+            <div class="hstack gap-1 d-none d-lg-flex me-2 mb-0">
+              <a
+                href="index.html"
+                class="d-inline-flex align-items-center py-2"
+              >
+                <img
+                  src="assets/images/logo_icon.svg"
+                  class="sidebar-logo-icon"
+                  alt=""
+                />
+                <h4 class="sidebar-resize-hide text-body lh-1 mb-0 ms-3">
+                  Limitless
+                </h4>
+              </a>
+            </div>
+
+            <ul class="nav hstack gap-sm-1 ms-auto">
+              <!-- <li class="nav-item">
+                <a
+                  href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328/comments"
+                  class="navbar-nav-link navbar-nav-link-icon rounded-pill"
+                  target="_blank"
+                >
+                  <div class="hstack gap-2 mx-lg-1">
+                    <i class="ph-chats"></i>
+                    <span class="d-none d-lg-inline-block">Comments</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://themeforest.net/item/limitless-responsive-web-application-kit/reviews/13080328"
+                  class="navbar-nav-link navbar-nav-link-icon rounded-pill"
+                  target="_blank"
+                >
+                  <div class="hstack gap-2 mx-lg-1">
+                    <i class="ph-star"></i>
+                    <span class="d-none d-lg-inline-block">Reviews</span>
+                  </div>
+                </a>
+              </li> -->
+              <li class="nav-item">
+                <div class="hstack gap-1 mb-3 mb-lg-0">
+                  <a href="podcast-main1.html"
+                    ><button
+                      type="button"
+                      class="btn btn-light rounded mb-0 fw-bold mb-1"
+                    >
+                      Login
+                    </button></a
+                  >
+
+                  <a
+                    ><button
+                      type="button"
+                      class="btn btn-light rounded mb-0 fw-bold mb-1"
+                    >
+                      Sign up
+                    </button></a
+                  >
+                </div>
+              </li>
+            </ul>
+            <a
+              href="#page_header"
+              class="btn btn-light align-self-center collapsed d-lg-none border-transparent rounded p-0 ms-auto"
+              data-bs-toggle="collapse"
+            >
+              <i class="ph-caret-down collapsible-indicator ph-sm m-1"></i>
+            </a>
+
+            <div class="ms-1 ms-lg-3">
+              <label
+                class="btn btn-light btn-icon border-transparent rounded-pill"
+                for="btncheck1"
+              >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="btncheck1"
+                  autocomplete="off"
+                />
+                <i class="ph-moon"></i>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- /main navbar -->
+
+        <!-- Inner content -->
+        <div class="content-inner">
+          <!-- Content area -->
+          <div class="content">
+            <!-- Inner container -->
+            <div class="container">
+              <div
+                class="d-flex align-items-stretch align-items-lg-start flex-column flex-lg-row"
+              >
+                <!-- Left content -->
+                <div class="flex-1 order-2 order-lg-1">
+                  <!-- Post -->
+
+                  <!-- Single episode -->
+                  <div class="card text-reset">
+                    <div
+                      class="d-flex align-items-center justify-content-between card-body"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-center border-bottom-0"
+                        style="width: 100%"
+                      >
+                        <div class="w-50">
+                          <div class="">
+                            <div class="card-body">
+                              <div class="mb-2">
+                                <div class="mb-3 text-left">
+                                  <a href="#" class="d-inline-block">
+                                    <h1>Podcast Name</h1>
+                                    <!-- <img
+                                          src="../../assets/global/images/demo/cover.jpg"
+                                          class="img-fluid rounded"
+                                          alt=""
+                                        /> -->
+                                  </a>
+                                </div>
+
+                                <div>
+                                  <audio controls>
+                                    <source src="horse.ogg" type="audio/ogg" />
+                                    <source src="horse.mp3" type="audio/mpeg" />
+                                  </audio>
+                                </div>
+
+                                <div>
+                                  <button
+                                    type="button"
+                                    class="btn btn-primary my-1 me-2"
+                                  >
+                                    <i
+                                      class="mi-favorite-border me-1 mi-1x"
+                                    ></i>
+                                    Like
+                                  </button>
+                                  <button
+                                    type="button"
+                                    class="btn btn-outline-primary my-1 me-2"
+                                  >
+                                    <i class="mi-send me-1 mi-1x"></i>
+                                    Share
+                                  </button>
+                                  <button
+                                    type="button"
+                                    class="btn btn-flat-primary my-1 me-2"
+                                  >
+                                    <i
+                                      class="mi-vertical-align-bottom me-1 mi-1x"
+                                    ></i>
+                                    Download
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- /post -->
+                        </div>
+                        <div
+                          class="w-50 d-flex align-items-center justify-content-center gap-4"
+                        >
+                          <div class=""></div>
+                          <div class="">
+                            <div>
+                              <img
+                                src="../../assets/global/images/demo/cover.jpg"
+                                class="img-fluid rounded"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dropdown align-self-end">
+                        <div class="d-inline-flex align-items-center"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /single episode -->
+
+                  <!-- /post -->
+
+                  <!-- Post -->
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="mb-4">
+                        <h3 class="card-title pt-2 mb-1">
+                          <h1 class="mb-0 mb-2">THE PODCAST'S INFO</h1>
+                        </h3>
+
+                        <!-- <ul
+                          class="list-inline list-inline-bullet text-muted mb-3"
+                        >
+                          <li class="list-inline-item">
+                            By
+                            <a href="#" class="text-reset text-decoration-none"
+                              >The Creator</a
+                            >
+                          </li>
+                          <li class="list-inline-item">July 24th, 2004</li>
+                          <li class="list-inline-item">
+                            <a
+                              ><i class="ph-eye text-indigo ph-1x me-1"></i
+                              >5000</a
+                            >
+                          </li>
+                          <li class="list-inline-item">
+                            <a
+                              ><i class="ph-heart text-pink ph-1x me-1"></i
+                              >4000</a
+                            >
+                          </li>
+                        </ul> -->
+
+                        <div class="mb-3">
+                          <p>
+                            Lorem ipsum dolor sit amet. Nam molestiae impedit
+                            sit rerum rerum qui consequuntur dolor sit repellat
+                            delectus aut officiis voluptates et voluptate iure!
+                            Ea minima dolorem et consequatur quibusdam ut
+                            accusamus perspiciatis. Ut minus quia hic culpa amet
+                            cum quasi minus in quas nihil in alias velit id
+                            dolor ratione sed odit ipsa. Sit sunt placeat non
+                            reiciendis obcaecati non voluptate facere aut
+                            provident placeat ea voluptatum quaerat. Ut sint
+                            consectetur ab architecto aperiam qui aliquid
+                            consectetur est corrupti galisum aut autem
+                            reprehenderit. Ut quia corrupti et quam alias qui
+                            nihil adipisci qui possimus laboriosam eum soluta
+                            sint quo laborum unde eum laudantium architecto. A
+                            voluptate enim sit aliquid similique ut omnis
+                            voluptatem. Qui voluptates dolorem in voluptas
+                            officia et doloremque facere ex sint molestiae hic
+                            voluptates inventore. Eos beatae laborum vel
+                            praesentium rerum in autem sunt sit ipsum velit et
+                            perspiciatis porro aut illo expedita. Quo facilis
+                            voluptatibus quo ducimus inventore et saepe
+                            accusantium rem maxime temporibus est deleniti esse.
+                            Sed dolorum voluptatem 33 quia dolores quo sunt
+                            fugiat non neque rerum ut excepturi odio. Eos sint
+                            aspernatur et culpa alias et internos corporis. Sit
+                            obcaecati iusto et totam dolore quo maxime rerum ut
+                            enim quidem qui galisum libero et reprehenderit
+                            velit? Ut amet repellat eos veniam beatae sed labore
+                            quae.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /post -->
+
+                  <!-- Post -->
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="mb-4">
+                        <h3 class="card-title pt-2 mb-1">
+                          <h1 class="mb-0 mb-2">0 COMMENTS</h1>
+                        </h3>
+
+                        <!-- <ul
+                          class="list-inline list-inline-bullet text-muted mb-3"
+                        >
+                          <li class="list-inline-item">
+                            By
+                            <a href="#" class="text-reset text-decoration-none"
+                              >The Creator</a
+                            >
+                          </li>
+                          <li class="list-inline-item">July 24th, 2004</li>
+                          <li class="list-inline-item">
+                            <a
+                              ><i class="ph-eye text-indigo ph-1x me-1"></i
+                              >5000</a
+                            >
+                          </li>
+                          <li class="list-inline-item">
+                            <a
+                              ><i class="ph-heart text-pink ph-1x me-1"></i
+                              >4000</a
+                            >
+                          </li>
+                        </ul> -->
+
+                        <div class="mb-3">
+                          <p>
+                            Lorem ipsum dolor sit amet. Nam molestiae impedit
+                            sit rerum rerum qui consequuntur dolor sit repellat
+                            delectus aut officiis voluptates et voluptate iure!
+                            Ea minima dolorem et consequatur quibusdam ut
+                            accusamus perspiciatis. Ut minus quia hic culpa amet
+                            cum quasi quae.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /post -->
+                </div>
+                <!-- /left content -->
+              </div>
+            </div>
+            <!-- /inner container -->
+          </div>
+          <!-- /content area -->
+
+          <!-- Footer -->
+
+          <!-- /footer -->
+        </div>
+        <!-- /inner content -->
+      </div>
+      <!-- /main content -->
+    </div>
+    <!-- /page content -->
+  </body>
+</html>

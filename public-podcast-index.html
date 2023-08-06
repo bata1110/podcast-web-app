@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+    <!-- Global stylesheets -->
+    <link
+      href="assets/fonts/inter/inter.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/icons/phosphor/styles.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="assets/css/all.min.css" rel="stylesheet" type="text/css" />
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script src="assets/js/main/bootstrap.bundle.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script src="assets/js/plugins/prism.min.js"></script>
+    <script src="assets/js/main/app.js"></script>
+    <!-- /theme JS files -->
+  </head>
+
+  <body>
+    <div class="page-content">
+      <!-- /main sidebar -->
+
+      <!-- Main content -->
+      <div class="content-wrapper">
+        <!-- Main navbar -->
+        <div class="navbar navbar-expand-lg navbar-static border-bottom">
+          <div class="container-fluid">
+            <div class="d-flex d-lg-none flex-fill me-2">
+              <button
+                type="button"
+                class="navbar-toggler sidebar-mobile-main-toggle rounded-pill"
+              >
+                <i class="ph-list"></i>
+              </button>
+            </div>
+
+            <div class="hstack gap-1 d-none d-lg-flex me-2 mb-0">
+              <a
+                href="index.html"
+                class="d-inline-flex align-items-center py-2"
+              >
+                <img
+                  src="assets/images/logo_icon.svg"
+                  class="sidebar-logo-icon"
+                  alt=""
+                />
+                <h4 class="sidebar-resize-hide text-body lh-1 mb-0 ms-3">
+                  Limitless
+                </h4>
+              </a>
+            </div>
+
+            <ul class="nav hstack gap-sm-1 ms-auto">
+              <!-- <li class="nav-item">
+                <a
+                  href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328/comments"
+                  class="navbar-nav-link navbar-nav-link-icon rounded-pill"
+                  target="_blank"
+                >
+                  <div class="hstack gap-2 mx-lg-1">
+                    <i class="ph-chats"></i>
+                    <span class="d-none d-lg-inline-block">Comments</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://themeforest.net/item/limitless-responsive-web-application-kit/reviews/13080328"
+                  class="navbar-nav-link navbar-nav-link-icon rounded-pill"
+                  target="_blank"
+                >
+                  <div class="hstack gap-2 mx-lg-1">
+                    <i class="ph-star"></i>
+                    <span class="d-none d-lg-inline-block">Reviews</span>
+                  </div>
+                </a>
+              </li> -->
+              <li class="nav-item">
+                <div
+                  class="collapse d-lg-block my-lg-auto ms-lg-auto"
+                  id="page_header"
+                >
+                  <div class="hstack gap-1 mb-3 mb-lg-0">
+                    <a href="podcast-main1.html"
+                      ><button
+                        type="button"
+                        class="btn btn-light rounded mb-0 fw-bold mb-1"
+                      >
+                        Login
+                      </button></a
+                    >
+
+                    <a
+                      ><button
+                        type="button"
+                        class="btn btn-light rounded mb-0 fw-bold mb-1"
+                      >
+                        Sign up
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a
+              href="#page_header"
+              class="btn btn-light align-self-center collapsed d-lg-none border-transparent rounded p-0 ms-auto"
+              data-bs-toggle="collapse"
+            >
+              <i class="ph-caret-down collapsible-indicator ph-sm m-1"></i>
+            </a>
+
+            <div class="ms-1 ms-lg-3">
+              <label
+                class="btn btn-light btn-icon border-transparent rounded-pill"
+                for="btncheck1"
+              >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="btncheck1"
+                  autocomplete="off"
+                />
+                <i class="ph-moon"></i>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- /main navbar -->
+
+        <!-- Inner content -->
+        <div class="content-inner">
+          <!-- Content area -->
+          <div class="content justify-content-center">
+            <div class="text-center">
+              <h1 class="fw-bold mb-5">TOP PODCASTS</h1>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <!--1 card item-->
+                <div class="col-md-6 col-lg-4">
+                  <div class="card">
+                    <div
+                      class="card-header d-flex justify-content-between align-items-center"
+                    >
+                      <h2 class="mb-0 text-body">The Podcast</h2>
+                      <div
+                        class="d-flex flex-wrap justify-content-end align-items-center"
+                      >
+                        <div
+                          class="badge bg-primary mb-2 ms-2 align-self-start"
+                        >
+                          Popular
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-img-actions mb-3">
+                        <img
+                          class="card-img img-fluid"
+                          src="../../assets/global/images/demo/flat/13.png"
+                          alt=""
+                        />
+                        <div class="card-img-actions-overlay card-img">
+                          <a
+                            href="detail.html"
+                            class="btn btn-outline-white btn-icon rounded d-flex justify-content-center align-items-center"
+                          >
+                            <i class="ph-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex flex-wrap justify-content-between align-items-center"
+                      >
+                        <p class="text-muted mb-0">Author: The Author</p>
+                        <p class="text-muted mb-0">Date: Jul 24th 2004</p>
+                      </div>
+                    </div>
+                    <div
+                      class="card-footer d-flex justify-content-between align-items-center"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-between gap-2"
+                      >
+                        <a href="#" class="text-body"
+                          ><i class="ph-heart text-pink me-1"></i>
+                          <span>281</span></a
+                        >
+                        <a href="#" class="text-body">
+                          <i class="ph-eye text-indigo me-1"></i>
+                          <span>1245</span>
+                        </a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <i class="ph-clock ms-2 me-1"></i>
+                        <span>10:25</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="card">
+                    <div
+                      class="card-header d-flex justify-content-between align-items-center"
+                    >
+                      <h2 class="mb-0 text-body">The Podcast</h2>
+                      <div
+                        class="d-flex flex-wrap justify-content-end align-items-center"
+                      >
+                        <div
+                          class="badge bg-warning mb-2 ms-2 align-self-start"
+                        >
+                          Featured
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-img-actions mb-3">
+                        <img
+                          class="card-img img-fluid"
+                          src="../../assets/global/images/demo/flat/13.png"
+                          alt=""
+                        />
+                        <div class="card-img-actions-overlay card-img">
+                          <a
+                            href="detail.html"
+                            class="btn btn-outline-white btn-icon rounded d-flex justify-content-center align-items-center"
+                          >
+                            <i class="ph-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex flex-wrap justify-content-between align-items-center"
+                      >
+                        <p class="text-muted mb-0">Author: The Author</p>
+                        <p class="text-muted mb-0">Date: Jul 24th 2004</p>
+                      </div>
+                    </div>
+                    <div
+                      class="card-footer d-flex justify-content-between align-items-center"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-between gap-2"
+                      >
+                        <a href="#" class="text-body"
+                          ><i class="ph-heart text-pink me-1"></i>
+                          <span>281</span></a
+                        >
+                        <a href="#" class="text-body">
+                          <i class="ph-eye text-indigo me-1"></i>
+                          <span>1245</span>
+                        </a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <i class="ph-clock ms-2 me-1"></i>
+                        <span>10:25</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="card">
+                    <div
+                      class="card-header d-flex justify-content-between align-items-center"
+                    >
+                      <h2 class="mb-0 text-body">The Podcast</h2>
+                      <div
+                        class="d-flex flex-wrap justify-content-end align-items-center"
+                      >
+                        <div
+                          class="badge bg-success mb-2 ms-2 align-self-start"
+                        >
+                          New
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-img-actions mb-3">
+                        <img
+                          class="card-img img-fluid"
+                          src="../../assets/global/images/demo/flat/13.png"
+                          alt=""
+                        />
+                        <div class="card-img-actions-overlay card-img">
+                          <a
+                            href="detail.html"
+                            class="btn btn-outline-white btn-icon rounded d-flex justify-content-center align-items-center"
+                          >
+                            <i class="ph-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex flex-wrap justify-content-between align-items-center"
+                      >
+                        <p class="text-muted mb-0">Author: The Author</p>
+                        <p class="text-muted mb-0">Date: Jul 24th 2004</p>
+                      </div>
+                    </div>
+                    <div
+                      class="card-footer d-flex justify-content-between align-items-center"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-between gap-2"
+                      >
+                        <a href="#" class="text-body"
+                          ><i class="ph-heart text-pink me-1"></i>
+                          <span>281</span></a
+                        >
+                        <a href="#" class="text-body">
+                          <i class="ph-eye text-indigo me-1"></i>
+                          <span>1245</span>
+                        </a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <i class="ph-clock ms-2 me-1"></i>
+                        <span>10:25</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="card">
+                    <div
+                      class="card-header d-flex justify-content-between align-items-center"
+                    >
+                      <h2 class="mb-0 text-body">The Podcast</h2>
+                      <div
+                        class="d-flex flex-wrap justify-content-end align-items-center"
+                      >
+                        <div
+                          class="badge bg-primary mb-2 ms-2 align-self-start"
+                        >
+                          Popular
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-img-actions mb-3">
+                        <img
+                          class="card-img img-fluid"
+                          src="../../assets/global/images/demo/flat/13.png"
+                          alt=""
+                        />
+                        <div class="card-img-actions-overlay card-img">
+                          <a
+                            href="detail.html"
+                            class="btn btn-outline-white btn-icon rounded d-flex justify-content-center align-items-center"
+                          >
+                            <i class="ph-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex flex-wrap justify-content-between align-items-center"
+                      >
+                        <p class="text-muted mb-0">Author: The Author</p>
+                        <p class="text-muted mb-0">Date: Jul 24th 2004</p>
+                      </div>
+                    </div>
+                    <div
+                      class="card-footer d-flex justify-content-between align-items-center"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-between gap-2"
+                      >
+                        <a href="#" class="text-body"
+                          ><i class="ph-heart text-pink me-1"></i>
+                          <span>281</span></a
+                        >
+                        <a href="#" class="text-body">
+                          <i class="ph-eye text-indigo me-1"></i>
+                          <span>1245</span>
+                        </a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <i class="ph-clock ms-2 me-1"></i>
+                        <span>10:25</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="card">
+                    <div
+                      class="card-header d-flex justify-content-between align-items-center"
+                    >
+                      <h2 class="mb-0 text-body">The Podcast</h2>
+                      <div
+                        class="d-flex flex-wrap justify-content-end align-items-center"
+                      >
+                        <div
+                          class="badge bg-primary mb-2 ms-2 align-self-start"
+                        >
+                          Popular
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-img-actions mb-3">
+                        <img
+                          class="card-img img-fluid"
+                          src="../../assets/global/images/demo/flat/13.png"
+                          alt=""
+                        />
+                        <div class="card-img-actions-overlay card-img">
+                          <a
+                            href="detail.html"
+                            class="btn btn-outline-white btn-icon rounded d-flex justify-content-center align-items-center"
+                          >
+                            <i class="ph-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex flex-wrap justify-content-between align-items-center"
+                      >
+                        <p class="text-muted mb-0">Author: The Author</p>
+                        <p class="text-muted mb-0">Date: Jul 24th 2004</p>
+                      </div>
+                    </div>
+                    <div
+                      class="card-footer d-flex justify-content-between align-items-center"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-between gap-2"
+                      >
+                        <a href="#" class="text-body"
+                          ><i class="ph-heart text-pink me-1"></i>
+                          <span>281</span></a
+                        >
+                        <a href="#" class="text-body">
+                          <i class="ph-eye text-indigo me-1"></i>
+                          <span>1245</span>
+                        </a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <i class="ph-clock ms-2 me-1"></i>
+                        <span>10:25</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="card">
+                    <div
+                      class="card-header d-flex justify-content-between align-items-center"
+                    >
+                      <h2 class="mb-0 text-body">The Podcast</h2>
+                      <div
+                        class="d-flex flex-wrap justify-content-end align-items-center"
+                      >
+                        <div
+                          class="badge bg-primary mb-2 ms-2 align-self-start"
+                        >
+                          Popular
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-img-actions mb-3">
+                        <img
+                          class="card-img img-fluid"
+                          src="../../assets/global/images/demo/flat/13.png"
+                          alt=""
+                        />
+                        <div class="card-img-actions-overlay card-img">
+                          <a
+                            href="detail.html"
+                            class="btn btn-outline-white btn-icon rounded d-flex justify-content-center align-items-center"
+                          >
+                            <i class="ph-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex flex-wrap justify-content-between align-items-center"
+                      >
+                        <p class="text-muted mb-0">Author: The Author</p>
+                        <p class="text-muted mb-0">Date: Jul 24th 2004</p>
+                      </div>
+                    </div>
+                    <div
+                      class="card-footer d-flex justify-content-between align-items-center"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-between gap-2"
+                      >
+                        <a href="#" class="text-body"
+                          ><i class="ph-heart text-pink me-1"></i>
+                          <span>281</span></a
+                        >
+                        <a href="#" class="text-body">
+                          <i class="ph-eye text-indigo me-1"></i>
+                          <span>1245</span>
+                        </a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <i class="ph-clock ms-2 me-1"></i>
+                        <span>10:25</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--1 card item-->
+
+                <!--keep adding cards here-->
+              </div>
+            </div>
+          </div>
+          <!-- /content area -->
+
+          <!-- Footer -->
+
+          <!-- /footer -->
+        </div>
+        <!-- /inner content -->
+      </div>
+      <!-- /main content -->
+    </div>
+    <!-- /page content -->
+  </body>
+</html>
